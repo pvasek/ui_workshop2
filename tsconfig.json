@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "outDir": "./temp",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,        
+        "types": ["core-js", "react" ],
+        "lib": ["dom", "es6", "scripthost"]        
+    },
+    "exclude": [
+        "node_modules",
+        "temp"
+    ]
+}
